@@ -6,7 +6,9 @@ const Navbar = () => {
     return (
         <div className='nav-container d-flex justify-content-center align-items-center'>
            <nav class="navbar navbar-inverse d-flex justify-content-center align-items-center">
-               <Logo />
+               <div className='d-flex flex-column'><Logo />
+               <h1 className='title'>BDZ Music</h1>
+               </div>
     <div class="container-fluid d-flex justify-content-center">
       <ul class="nav navbar-nav d-flex flex-row">
         <li className='link'><a id="len1" class="hoverable" href="/">Home</a></li>

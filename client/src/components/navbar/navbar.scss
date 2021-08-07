@@ -5,8 +5,10 @@
   position:relative;
   box-shadow: 0 0 1px rgba(0,0,0,0);
   transform: translateZ(0);
+  transform: scale(1.10);
   transition-duration: .3s;
   transition-property:transform;
+  color: #f98ba5;
 }
 
 .hoverable:before{
@@ -28,6 +30,7 @@
 
 .hoverable:hover, .hoverable:active, .hoverable:focus{
   transform: translateY(-5px);
+  color: #f98ba5;
 }
 .hoverable:hover:before, .hoverable:active:before, .hoverable:focus:before{
   opacity: 1;
@@ -115,8 +118,15 @@ a:hover,
 a:active{
     text-decoration: none;
     color: #7ac3e4;
+    text-shadow: 1px 1px #f7e698;
 }
 
 .logo{
   width: 50%;
+}
+
+.title{
+  padding-bottom: 30px;
+  color: #f7e698;
+  text-shadow: 2px 2px #7ac3e4;
 }

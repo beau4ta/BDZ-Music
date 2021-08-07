@@ -4,11 +4,12 @@
 }
 
 .album-container{
-    border: outset;
+    border: outset #f7e698;
     border-radius: 15px;
     padding: 20px;
     margin: 20px;
     width: 50%;
+    background-color: #f98ba5;
 }
 
 .image-container{
@@ -17,9 +18,11 @@
 
 .album-image{
     width: 30%;
-    border: inset #f98ba5;
+    border: inset #f7e698;
 }
 
 .info-container{
     padding: 10px;
+    color: #f7e698;
+    text-shadow: 2px 2px #7ac3e4;
 }

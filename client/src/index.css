@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Fira Sans", sans-serif;
+  cursor: url(assets/bdzlogo.png);
 }
 
 body {
@@ -16,10 +17,13 @@ body {
   min-height: 100vh;
 }
 
+.c-player-container{
+  margin: 100px;
+}
+
 .c-player {
   display: block;
-  background-color: #313131;
-  display: block;
+  background-color: #f98ba5;
   margin: 0px auto;
   padding: 50px;
   border-radius: 16px;
@@ -27,7 +31,7 @@ body {
 }
 
 .c-player > h4 {
-  color: #FFF;
+  color:   #f7e698;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 500;
@@ -35,7 +39,7 @@ body {
 }
 
 .c-player > p {
-  color: #AAA;
+  color: #f7e698;
   font-size: 14px;
   text-align: center;
   font-weight: 600;
@@ -71,7 +75,7 @@ body {
 }
 
 .c-player--details .details-title {
-  color: #EEE;
+  color: #f7e698;
   font-size: 28px;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
   text-align: center;
@@ -79,7 +83,7 @@ body {
 }
 
 .c-player--details .details-artist {
-  color: #AAA;
+  color: #f7e698;
   font-size: 20px;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
   text-align: center;
@@ -112,6 +116,7 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
-  color: #888;
+  color: #f7e698;
   font-size: 18px;
 }
+
