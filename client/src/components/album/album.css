@@ -1,0 +1,25 @@
+.album-main-container{
+    padding: 20px;
+    margin: 20px;
+}
+
+.album-container{
+    border: outset;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+}
+
+.image-container{
+    padding: 10px;
+}
+
+.album-image{
+    width: 30%;
+    border: inset #f98ba5;
+}
+
+.info-container{
+    padding: 10px;
+}
