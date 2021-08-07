@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom' 
 import Navbar from './components/navbar/navbar';
 import Music from './pages/music/music';
+import About from './pages/about/about';
 
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
             <Navbar />
             <Route path='/music'>
                 <Music />
+            </Route>
+            <Route path='/about'>
+                <About/>
             </Route>
             </Router>
         </div>
