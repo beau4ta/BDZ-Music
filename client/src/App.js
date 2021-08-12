@@ -8,6 +8,7 @@ import Merch from './pages/merch/merch';
 import Shows from './pages/shows/shows';
 import Videos from './pages/videos/videos';
 import Footer from './components/footer/footer';
+import Contact from './pages/contact/contact';
 
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
                 <Videos />
             </Route>
             <Route path='/contact'>
-                
+                <Contact />
             </Route>
             <Footer />
             </Router>
