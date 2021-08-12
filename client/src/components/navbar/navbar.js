@@ -16,6 +16,7 @@ const Navbar = () => {
         <li className='link'><a id="len3" class="hoverable" href="/music">Music</a></li>
         <li className='link'><a id="len4" class="hoverable" href="/merch">Merch</a></li>
         <li className='link'><a id="len4" class="hoverable" href="/shows">Shows</a></li>
+        <li className='link'><a id="len4" class="hoverable" href="/videos">Videos</a></li>
         <li className='link'><a id="len4" class="hoverable" href="/contact">Contact</a></li>
       </ul>
     </div>

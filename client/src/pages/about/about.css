@@ -21,3 +21,14 @@
     color: #f98ba5
     padding 10px;
 }
+
+.fa-youtube:hover,
+.fa-facebook:hover,
+.fa-soundcloud:hover,
+.fa-bandcamp:hover,
+.fa-instagram:hover,
+.fa-apple:hover,
+.fa-spotify:hover{
+    color: #f98ba5;
+    transform: scale(1.1);
+}
