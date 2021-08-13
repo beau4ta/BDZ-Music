@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/BDZ-Music/static/css/main.10c3a022.chunk.css",
+    "main.js": "/BDZ-Music/static/js/main.8fce6ab8.chunk.js",
+    "main.js.map": "/BDZ-Music/static/js/main.8fce6ab8.chunk.js.map",
+    "runtime-main.js": "/BDZ-Music/static/js/runtime-main.79657102.js",
+    "runtime-main.js.map": "/BDZ-Music/static/js/runtime-main.79657102.js.map",
+    "static/css/2.818011ed.chunk.css": "/BDZ-Music/static/css/2.818011ed.chunk.css",
+    "static/js/2.68f33dc8.chunk.js": "/BDZ-Music/static/js/2.68f33dc8.chunk.js",
+    "static/js/2.68f33dc8.chunk.js.map": "/BDZ-Music/static/js/2.68f33dc8.chunk.js.map",
+    "index.html": "/BDZ-Music/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/BDZ-Music/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.10c3a022.chunk.css.map": "/BDZ-Music/static/css/main.10c3a022.chunk.css.map",
+    "static/js/2.68f33dc8.chunk.js.LICENSE.txt": "/BDZ-Music/static/js/2.68f33dc8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/BDZ-Music/static/media/bdzlogo.2a0bf53e.png",
+    "static/media/beaufuneral3.cb6ded69.JPG": "/BDZ-Music/static/media/beaufuneral3.cb6ded69.JPG",
+    "static/media/dripham.58d27972.jpg": "/BDZ-Music/static/media/dripham.58d27972.jpg",
+    "static/media/newtape.c011c6f6.png": "/BDZ-Music/static/media/newtape.c011c6f6.png",
+    "static/media/openmicevent.cae27bd5.png": "/BDZ-Music/static/media/openmicevent.cae27bd5.png",
+    "static/media/splitpersonality.89582d34.png": "/BDZ-Music/static/media/splitpersonality.89582d34.png",
+    "static/media/sunnyday.ff4fc62f.png": "/BDZ-Music/static/media/sunnyday.ff4fc62f.png",
+    "static/media/winterbliss.ea443efe.png": "/BDZ-Music/static/media/winterbliss.ea443efe.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79657102.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.68f33dc8.chunk.js",
+    "static/css/main.10c3a022.chunk.css",
+    "static/js/main.8fce6ab8.chunk.js"
+  ]
+}
