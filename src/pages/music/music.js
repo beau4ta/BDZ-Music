@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import DripHam from '../../albums/dripham';
 import NewTape from '../../albums/newtape';
 import SplitPersonality from '../../albums/splitpersonality';

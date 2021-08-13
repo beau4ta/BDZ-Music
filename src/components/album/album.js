@@ -1,13 +1,14 @@
 import React from 'react';
 import './album.css';
 import { albums } from '../../albumData';
+import { Link } from 'react-router-dom'
 
 const Albums = () => {
     return (
         <div className='album-main-container d-flex flex-wrap justify-content-center align-items-center container-fluid'>
             {albums.map((album) => (
                 <div className='album-container d-flex col-4'>
-                    <a href={album.link} key={album.image} className="album-link">
+                    <Link to={album.link} key={album.image} className="album-link">
                         <div className='image-container'>
                             <img
                                 alt={album.title}
@@ -23,7 +24,7 @@ const Albums = () => {
                                 {album.subtitle}
                             </h2>
                         </div>
-                    </a>
+                    </Link>
                 </div>
             ))}
         </div>

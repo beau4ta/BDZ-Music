@@ -1,6 +1,17 @@
 import { useState, useEffect } from 'react'
 import Player from '../components/player/player';
 import dripham from '../assets/dripham.jpg';
+import intro from '../assets/music/dripham/intro.mp3';
+import heavyhitter from '../assets/music/dripham/heavyhitter.mp3';
+import monstrous from '../assets/music/dripham/monstrous.mp3';
+import lowlow from '../assets/music/dripham/lowlow.mp3';
+import shakingtower from '../assets/music/dripham/shakingtower.mp3';
+import dirtyplanet from '../assets/music/dripham/dirtyplanet.mp3';
+import tied from '../assets/music/dripham/tied.mp3';
+import fuckthat from '../assets/music/dripham/fuckthat.mp3';
+import sohigh from '../assets/music/dripham/sohigh.mp3';
+import why from '../assets/music/dripham/why.mp3';
+import doses from '../assets/music/dripham/doses.mp3';
 
 function DripHam() {
   const [songs] = useState([
@@ -8,67 +19,67 @@ function DripHam() {
       title: "Intro",
       artist: "BDZ",
       img_src: dripham,
-      src: "/music/dripham/intro.mp3"
+      src: intro
     },
     {
       title: "Heavy Hitter",
       artist: "BDZ",
       img_src: dripham,
-      src: "/music/dripham/heavyhitter.mp3"
+      src: heavyhitter
     },
     {
       title: "Monstrous",
       artist: "BDZ",
       img_src: dripham,
-      src: "/music/dripham/monstrous.mp3"
+      src: monstrous
     },
     {
       title: "Low Low",
       artist: "BDZ",
       img_src: dripham,
-      src: "/music/dripham/lowlow.mp3"
+      src: lowlow
     },
     {
       title: "Shaking Tower",
       artist: "BDZ",
       img_src: dripham,
-      src: "/music/dripham/shakingtower.mp3"
+      src: shakingtower
     },
     {
       title: "Dirty Planet (Freestyle For Jimmer)",
       artist: "BDZ",
       img_src: dripham,
-      src: "/music/dripham/dirtyplanet.mp3"
+      src: dirtyplanet
     },
     {
       title: "Fuck That",
       artist: "BDZ",
       img_src: dripham,
-      src: "/music/dripham/fuckthat.mp3"
+      src: fuckthat
     },
     {
       title: "Tied",
       artist: "BDZ",
       img_src: dripham,
-      src: "/music/dripham/tied.mp3"
-    },
-    {
-      title: "Why",
-      artist: "BDZ",
-      img_src: dripham,
-      src: "/music/dripham/why.mp3"
+      src: tied
     },
     {
       title: "So High",
       artist: "BDZ",
       img_src: dripham,
-      src: "/music/dripham/sohigh.mp3"
+      src: sohigh
+    },
+    {
+      title: "Why",
+      artist: "BDZ",
+      img_src: dripham,
+      src: why
     },
     {
       title: "Doses - Outro",
       artist: "BDZ",
       img_src: dripham,
-      src: "/music/dripham/doses.mp3"
+      src: doses
     },
   ]);
 

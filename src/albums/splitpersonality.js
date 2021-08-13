@@ -1,6 +1,18 @@
 import { useState, useEffect } from 'react'
 import Player from '../components/player/player';
 import splitpersonality from '../assets/splitpersonality.png';
+import intro from '../assets/music/splitpersonality/intro.mp3'
+import gs from '../assets/music/splitpersonality/100gs.mp3'
+import allicanbe from '../assets/music/splitpersonality/allicanbe.mp3'
+import manhunt from '../assets/music/splitpersonality/manhunt.mp3'
+import everywhereigo from '../assets/music/splitpersonality/everywhereigo.mp3'
+import getoutmyface from '../assets/music/splitpersonality/getoutmyface.mp3'
+import depressed from '../assets/music/splitpersonality/depressed.mp3'
+import pendulum from '../assets/music/splitpersonality/pendulum.mp3'
+import hypnotic from '../assets/music/splitpersonality/hypnotic.mp3'
+import uncanny from '../assets/music/splitpersonality/uncanny.mp3'
+import bonglord from '../assets/music/splitpersonality/bonglordonthelongboard.mp3'
+import castle from '../assets/music/splitpersonality/castle.mp3'
 
 function SplitPersonality() {
   const [songs] = useState([
@@ -8,73 +20,73 @@ function SplitPersonality() {
       title: "Intro",
       artist: "BDZ",
       img_src: splitpersonality,
-      src: "/music/splitpersonality/intro.mp3"
+      src: intro
     },
     {
       title: "100 G's",
       artist: "BDZ",
       img_src: splitpersonality,
-      src: "/music/splitpersonality/100gs.mp3"
+      src: gs
     },
     {
       title: "All I Can Be",
       artist: "BDZ",
       img_src: splitpersonality,
-      src: "/music/splitpersonality/allicanbe.mp3"
+      src: allicanbe
     },
     {
       title: "Manhunt",
       artist: "BDZ",
       img_src: splitpersonality,
-      src: "/music/splitpersonality/manhunt.mp3"
+      src: manhunt
     },
     {
       title: "Everywhere I Go",
       artist: "BDZ",
       img_src: splitpersonality,
-      src: "/music/splitpersonality/everywhereigo.mp3"
+      src: everywhereigo
     },
     {
       title: "Get Out My Face",
       artist: "BDZ",
       img_src: splitpersonality,
-      src: "/music/splitpersonality/getoutmyface.mp3"
+      src: getoutmyface
     },
     {
       title: "Depressed.MP3",
       artist: "BDZ",
       img_src: splitpersonality,
-      src: "/music/splitpersonality/depressed.mp3"
+      src: depressed
     },
     {
       title: "Pendulum",
       artist: "BDZ",
       img_src: splitpersonality,
-      src: "/music/splitpersonality/pendulum.mp3"
+      src: pendulum
     },
     {
       title: "Hypnotic",
       artist: "BDZ",
       img_src: splitpersonality,
-      src: "/music/splitpersonality/hypnotic.mp3"
+      src: hypnotic
     },
     {
       title: "Uncanny",
       artist: "BDZ",
       img_src: splitpersonality,
-      src: "/music/splitpersonality/uncanny.mp3"
+      src: uncanny
     },
     {
       title: "Bong Lord on the Longboard",
       artist: "BDZ",
       img_src: splitpersonality,
-      src: "/music/splitpersonality/bonglordonthelongboard.mp3"
+      src: bonglord
     },
     {
       title: "Castle",
       artist: "BDZ",
       img_src: splitpersonality,
-      src: "/music/splitpersonality/castle.mp3"
+      src: castle
     },
   ]);
 

@@ -1,6 +1,22 @@
 import { useState, useEffect } from 'react'
 import Player from '../components/player/player';
 import newtape from '../assets/newtape.png';
+import newTape from '../assets/music/newtape/newtape.mp3';
+import tellme from '../assets/music/newtape/tellme.mp3';
+import worldwar3 from '../assets/music/newtape/worldwar3.mp3';
+import girls from '../assets/music/newtape/girls.mp3';
+import twelve from '../assets/music/newtape/12_23.mp3';
+import six from '../assets/music/newtape/six.mp3';
+import mindright from '../assets/music/newtape/mindright.mp3';
+import journey from '../assets/music/newtape/journey.mp3';
+import closing from '../assets/music/newtape/closing.mp3';
+import sanctuary from '../assets/music/newtape/sanctuary.mp3';
+import blasts from '../assets/music/newtape/blasts.mp3';
+import interference from '../assets/music/newtape/interference.mp3';
+import systemic from '../assets/music/newtape/systemic.mp3';
+import xmas16 from '../assets/music/newtape/xmas16.mp3';
+import headache from '../assets/music/newtape/headache.mp3';
+import bitch from '../assets/music/newtape/bitch.mp3';
 
 function NewTape() {
   const [songs] = useState([
@@ -8,97 +24,97 @@ function NewTape() {
       title: "New Tape",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/newtape.mp3"
+      src: newTape
     },
     {
       title: "Tell Me",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/tellme.mp3"
+      src: tellme
     },
     {
       title: "World War 3",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/worldwar3.mp3"
+      src: worldwar3
     },
     {
       title: "Girls",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/girls.mp3"
+      src: girls
     },
     {
       title: "12_23",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/12_23.mp3"
+      src: twelve
     },
     {
       title: "Six",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/six.mp3"
+      src: six
     },
     {
       title: "Mind Right",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/mindright.mp3"
+      src: mindright
     },
     {
       title: "Journey",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/journey.mp3"
+      src: journey
     },
     {
       title: "Closing",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/closing.mp3"
+      src: closing
     },
     {
       title: "Sanctuary",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/sanctuary.mp3"
+      src: sanctuary
     },
     {
       title: "Blasts",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/blasts.mp3"
+      src: blasts
     },
     {
       title: "Interference",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/interference.mp3"
+      src: interference
     },
     {
       title: "Systemic",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/systemic.mp3"
+      src: systemic
     },
     {
       title: "XMAS 16",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/xmas16.mp3"
+      src: xmas16
     },
     {
       title: "Headache",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/headache.mp3"
+      src: headache
     },
     {
       title: "Bitch",
       artist: "BDZ",
       img_src: newtape,
-      src: "/music/newtape/bitch.mp3"
+      src: bitch
     },
   ]);
 
