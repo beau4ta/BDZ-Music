@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../animation/logo';
+import { Link } from 'react-router-dom'
 import './navbar.scss'
 
 const Navbar = () => {
@@ -11,13 +12,13 @@ const Navbar = () => {
                </div>
     <div class="container-fluid d-flex justify-content-center">
       <ul class="nav navbar-nav d-flex flex-row">
-        <li className='link'><a id="len1" class="hoverable" href="/">Home</a></li>
-        <li className='link'><a id="len2" class="hoverable" href="/about">About</a></li>
-        <li className='link'><a id="len3" class="hoverable" href="/music">Music</a></li>
-        <li className='link'><a id="len4" class="hoverable" href="/merch">Merch</a></li>
-        <li className='link'><a id="len4" class="hoverable" href="/shows">Shows</a></li>
-        <li className='link'><a id="len4" class="hoverable" href="/videos">Videos</a></li>
-        <li className='link'><a id="len4" class="hoverable" href="/contact">Contact</a></li>
+        <li className='link'><Link id="len1" class="hoverable" to="/">Home</Link></li>
+        <li className='link'><Link id="len2" class="hoverable" to="/about">About</Link></li>
+        <li className='link'><Link id="len3" class="hoverable" to="/music">Music</Link></li>
+        <li className='link'><Link id="len4" class="hoverable" to="/merch">Merch</Link></li>
+        <li className='link'><Link id="len4" class="hoverable" to="/shows">Shows</Link></li>
+        <li className='link'><Link id="len4" class="hoverable" to="/videos">Videos</Link></li>
+        <li className='link'><Link id="len4" class="hoverable" to="/contact">Contact</Link></li>
       </ul>
     </div>
   </nav>
