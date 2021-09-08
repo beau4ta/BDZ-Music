@@ -77,15 +77,14 @@
 }
 
 
-
-/*everything below here is just setting up the page, so dont worry about it */
-
-
-@media (min-width: 768px) {
-  .navbar{
-    text-align: center !important;
-    float: none;
-    display: inline-block;
+@media only screen and (max-width: 600px) {
+  .nav-container,
+  .nav,
+  .navbar,
+  .navbar-inverse,
+  .navbar-nav{
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -129,4 +128,10 @@ a:active{
   padding-bottom: 30px;
   color: #f7e698;
   text-shadow: 2px 2px #7ac3e4;
+}
+
+.navbar-nav,
+.nav{
+  display: flex;
+  flex-direction: row;
 }

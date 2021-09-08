@@ -1,7 +1,7 @@
 export const videos = [
     {
-        title: 'Tell Me',
-        videoId: '7fs--trdgyM'
+        title: 'Without You',
+        videoId: 'tTmpe6EX-x0'
     },
     {
         title: 'Outside',

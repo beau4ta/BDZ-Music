@@ -6,7 +6,7 @@ class About extends Component {
     render(){
         return(
             <div className='about-container d-flex justify-content-center'>
-                <div className='d-flex flex-row justify-content-center'>
+                <div className='info-img d-flex justify-content-center align-items-center'>
                 <div className='image-container col-4'>
                     <img className='beau' src={Beau} alt='Beau Fortier'/>
                 </div>
