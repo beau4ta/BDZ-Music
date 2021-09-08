@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/BDZ-Music/static/css/main.33e7b994.chunk.css",
-    "main.js": "/BDZ-Music/static/js/main.52ef3ae2.chunk.js",
-    "main.js.map": "/BDZ-Music/static/js/main.52ef3ae2.chunk.js.map",
+    "main.css": "/BDZ-Music/static/css/main.0a1464be.chunk.css",
+    "main.js": "/BDZ-Music/static/js/main.5101b70b.chunk.js",
+    "main.js.map": "/BDZ-Music/static/js/main.5101b70b.chunk.js.map",
     "runtime-main.js": "/BDZ-Music/static/js/runtime-main.79657102.js",
     "runtime-main.js.map": "/BDZ-Music/static/js/runtime-main.79657102.js.map",
     "static/css/2.818011ed.chunk.css": "/BDZ-Music/static/css/2.818011ed.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.48594789.chunk.js.map": "/BDZ-Music/static/js/2.48594789.chunk.js.map",
     "index.html": "/BDZ-Music/index.html",
     "static/css/2.818011ed.chunk.css.map": "/BDZ-Music/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.33e7b994.chunk.css.map": "/BDZ-Music/static/css/main.33e7b994.chunk.css.map",
+    "static/css/main.0a1464be.chunk.css.map": "/BDZ-Music/static/css/main.0a1464be.chunk.css.map",
     "static/js/2.48594789.chunk.js.LICENSE.txt": "/BDZ-Music/static/js/2.48594789.chunk.js.LICENSE.txt",
     "static/media/100gs.d62eef18.mp3": "/BDZ-Music/static/media/100gs.d62eef18.mp3",
     "static/media/12_23.5a936ccf.mp3": "/BDZ-Music/static/media/12_23.5a936ccf.mp3",
@@ -83,7 +83,7 @@
     "static/js/runtime-main.79657102.js",
     "static/css/2.818011ed.chunk.css",
     "static/js/2.48594789.chunk.js",
-    "static/css/main.33e7b994.chunk.css",
-    "static/js/main.52ef3ae2.chunk.js"
+    "static/css/main.0a1464be.chunk.css",
+    "static/js/main.5101b70b.chunk.js"
   ]
 }
